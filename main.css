@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  img {
+    @apply w-full
+  }
+
+  .section {
+    @apply container w-[1160px] mx-auto px-6 
+  }
+  .animate-slide:hover {
+    animation-play-state: paused;
+  }
+}
