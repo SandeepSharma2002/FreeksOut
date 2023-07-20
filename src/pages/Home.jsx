@@ -24,7 +24,7 @@ const Home = () => {
   };
   return (
     <>
-      <div className="relative bg-gradient-to-r from-[#00031d] to-[#000536]">
+      <div className="relative bg-gradient-to-r from-[#00031d] to-[#000536] overflow-hidden">
       <div className="absolute  w-full h-full overflow-x-hidden">
       <div className="snowflake"></div>      <div className="snowflake"></div>
       <div className="snowflake"></div>      <div className="snowflake"></div>
@@ -181,7 +181,7 @@ const Home = () => {
       <div className="snowflake"></div>      <div className="snowflake"></div> 
       
     </div>
-        <div className="section pt-2 md:pt-20 px-6 mt-10 font-Nunito" id="home">
+        <div className=" pt-2 md:pt-20  mt-10 font-Nunito mx-w-[1160px] px-6 sm:px-24 mx-auto" id="home">
           <div className="flex flex-col md:flex-row gap-6 md:justify-between items-center justify-center">
             <div className="mt-16 md:mt-20">
               <div className="text-[30px] md:text-[2.813rem] font-extrabold text-white mb-6 -translate-x-20 opacity-0 animate-slideLeft">

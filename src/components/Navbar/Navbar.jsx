@@ -27,7 +27,7 @@ const Navbar = () => {
       } fixed w-full top-0 left-0 z-20 font-Nunito`}
     >
       
-      <div className="section">
+      <div className="mx-w-[1160px] px-6 sm:px-24 mx-auto">
         <div
           className={`${
             active ? "py-2 transition-all duration-300" : "py-0"
@@ -61,7 +61,7 @@ const Navbar = () => {
               initial={{ x: 500, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.3 }}
-              className="fixed block md:hidden h-full w-96 top-[76px] right-0 sm:right-10 md:right-0 z-20 bg-gradient-to-r from-[#fff] to-[#e1f2ea] text-[#ffffffb3] shadow-lg py-8"
+              className="fixed block md:hidden h-[100vh] w-48 sm:w-96 top-[76px] right-0 sm:right-10 md:right-0 z-20 bg-gradient-to-r from-[#fff] to-[#e1f2ea] text-[#ffffffb3] shadow-lg py-8"
             >
               
               {navLinks.map((navLink) => {
