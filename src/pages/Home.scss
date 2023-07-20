@@ -4,12 +4,12 @@
     height: var(--size);
     background: white;
     position: absolute;
-    top: -5vh;
+    top: 0vh;
   }
   
   @keyframes snowfall {
     0% {
-      transform: translate3d(var(--left-ini), 130vh, 0);
+      transform: translate3d(var(--left-ini), 110vh, 0);
     }
     100% {
       transform: translate3d(var(--left-end), 0, 0);
@@ -29,7 +29,7 @@
   
   /* added small blur every 6 snowflakes*/
   .snowflake:nth-child(6n) {
-    filter: blur(0px);
+    filter: blur(1px);
   }
   
 

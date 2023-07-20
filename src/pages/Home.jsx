@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <>
       <div className="relative bg-gradient-to-r from-[#00031d] to-[#000536] overflow-hidden">
-      <div className="absolute  w-full h-full overflow-x-hidden">
+      <div className="absolute w-full h-full overflow-x-hidden">
       <div className="snowflake"></div>      <div className="snowflake"></div>
       <div className="snowflake"></div>      <div className="snowflake"></div>
       <div className="snowflake"></div>      <div className="snowflake"></div>
